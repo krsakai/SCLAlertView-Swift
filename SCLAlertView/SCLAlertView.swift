@@ -475,7 +475,7 @@ public class SCLAlertView: UIViewController {
     var keyboardHasBeenShown:Bool = false
     
     func keyboardWillShow(notification: NSNotification) {
-    　　if keyboardHasBeenShown { return }
+        if keyboardHasBeenShown { return }
         keyboardHasBeenShown = true
         
         guard let userInfo = notification.userInfo else {return}
